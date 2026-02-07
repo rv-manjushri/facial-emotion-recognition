@@ -19,10 +19,15 @@ The objective of this project is to detect and classify facial expressions from 
 
 - ### Project Structure
 ├── data/               → Dataset (FER-2013 like)
+
 ├── models/             → Trained model (.h5)
+
 ├── outputs/            → Graphs & predictions
+
 ├── src/                → Main Python scripts / Jupyter notebook
+
 ├── README.md
+
 └── requirements.txt 
 
 ### Tech Stack
@@ -36,6 +41,4 @@ cd facial-emotion-recognition
 pip install -r requirements.txt
 jupyter notebook src/Facial_Emotion_Recognition.ipynb
 
-### Accuracy and Loss Plots
-<img width="1500" height="500" alt="accuracy" src="https://github.com/user-attachments/assets/f1c7c032-5539-432d-8694-ac355958e231" />
 
