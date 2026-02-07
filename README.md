@@ -15,4 +15,27 @@ The objective of this project is to detect and classify facial expressions from 
 - Model: Custom CNN with 4 convolutional blocks, dropout for regularization  
 - Training Accuracy: **~71.5%**  
 - Validation Accuracy: **~63.2%**  
-- Trained for 100 epochs with Adam optimizer and categorical cross-entropy loss 
+- Trained for 100 epochs with Adam optimizer and categorical cross-entropy loss
+
+- ### Project Structure
+├── data/               → Dataset (FER-2013 like)
+├── models/             → Trained model (.h5)
+├── outputs/            → Graphs & predictions
+├── src/                → Main Python scripts / Jupyter notebook
+├── README.md
+└── requirements.txt 
+
+### Tech Stack
+- Python, TensorFlow/Keras
+- OpenCV, NumPy, Matplotlib, Seaborn
+
+### How to Run
+```bash
+git clone https://github.com/rv-manjushri/facial-emotion-recognition.git
+cd facial-emotion-recognition
+pip install -r requirements.txt
+jupyter notebook src/Facial_Emotion_Recognition.ipynb
+
+
+
+<img width="1500" height="500" alt="accuracy" src="https://github.com/user-attachments/assets/710c8a67-c3b5-4fbf-91a5-7fcd56f45852" />
