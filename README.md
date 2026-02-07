@@ -36,6 +36,6 @@ cd facial-emotion-recognition
 pip install -r requirements.txt
 jupyter notebook src/Facial_Emotion_Recognition.ipynb
 
+### Accuracy and Loss Plots
+<img width="1500" height="500" alt="accuracy" src="https://github.com/user-attachments/assets/f1c7c032-5539-432d-8694-ac355958e231" />
 
-
-<img width="1500" height="500" alt="accuracy" src="https://github.com/user-attachments/assets/710c8a67-c3b5-4fbf-91a5-7fcd56f45852" />
